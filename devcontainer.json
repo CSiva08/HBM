@@ -1,0 +1,10 @@
+{
+    "name": "Your Codespace Configuration Name",
+    "extensions": [
+        "felixfbecker.php-intellisense",
+        "phpunit.phpunit",
+        "browsertoolbox.url-open",
+        "your-extensions-here",
+        "mysqli"
+    ]
+}
