@@ -1,0 +1,98 @@
+<?php
+$length=$_POST['length'];
+$width=$_POST['width'];
+$floor=$_POST['floor'];
+?>    
+    
+    <input type="radio" id="1000l" name="1000l" value="100">
+      <label for="1000l">100</label><br>
+      <input type="radio" id="1000w" name="1000w" value="80">
+      <label for="1000w">80</label><br>
+      <script>
+        var l=document.getElementById("land");
+        if(l==1000){
+                document.getElementById("1000l").style.visibility = "visible";
+                document.getElementById("1000w").style.visibility = "visible";}
+        else{
+          document.getElementById("1000l").style.visibility = "hidden";
+                document.getElementById("1000w").style.visibility = "hidden";
+        }
+        </script>
+
+         
+      <div class="navbar">
+        <b>
+        <a href="home.html" class="right">HOME</a>
+        <div class="dropdown">
+          <button class="dropbtn">SERVICES
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="build.html">Build</a>
+            <a href="">Reconstruct</a>
+          </div>
+        </div> 
+        <a href="" class="right">MONITER</a>
+        <a href="" class="right">PAYMENTS</a>
+        <a href="" class="right">ABOUT US</a>
+        <a href="contact.html" class="right">CONTACT US</a>
+      </b>   
+    </div>
+    <div class="header"></div>
+    </div>
+
+
+
+
+    <div class="white">
+      <h1>YOUR REQUIRMENTS</h1>
+      <center>
+        <div class="corner" > 
+          <form action="/action_page.php">
+            <h2><b>
+            <label for="land">Choose Land Size:</label>
+            <select id="land" name="land">
+              <option value=""></option>
+              <option value="1000">1000</option>
+              <option value="5000">5000</option>
+              <option value="8000">8000</option>
+            </select><br> <br>
+      Length:<input type="number" id="length" name="length">
+      Width:<input type="number" id="width" name="width">
+            <br>
+       <a href="portfolio.html" class="button">Submit</a>
+      </form>
+        </b></h2>
+        </div>
+        <br>
+      </center>
+      </div>
+
+
+      
+<div class="grey">
+  <br>
+  <h1>
+    PORTFOLIO
+  </h1>
+  <br>
+</a>
+<a href="https://www.hocomoco.in/">
+<img alt="Reconstruct" src="hbm.jpg"
+width=250" height="300">
+</a>
+&emsp;&emsp;
+<a href="https://www.hocomoco.in/">
+  <img alt="Build" src="hbm.jpg"
+  width=250" height="300">
+
+</a>
+&emsp;&emsp;
+<a href="https://www.hocomoco.in/">
+<img alt="Reconstruct" src="hbm.jpg"
+width=250" height="300">
+</a>
+<br>
+<br>
+<a href="portfolio.html" class="button">VIEW MORE</a>
+</div>
